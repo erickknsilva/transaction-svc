@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: transaction-svc
+  mongodb:
+    host: localhost
+    port: 27017
+    username: admin
+    password: admin
+    database: transaction
+
