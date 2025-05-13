@@ -1,9 +1,15 @@
 package com.coffeandit.transaction_svc.dto;
 
 import jakarta.validation.constraints.NotNull;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.io.Serializable;
 
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class BeneficiatioDto implements Serializable {
 
     private static final long serialVersionUIDLONG = 2806421543985360625L;
