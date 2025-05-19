@@ -1,8 +1,8 @@
-package com.coffeandit.transaction_svc.events;
+package com.coffeandit.transactionsvc.events;
 
-import com.coffeandit.transaction_svc.domain.TransactionBusiness;
-import com.coffeandit.transaction_svc.dto.SituacaoEnum;
-import com.coffeandit.transaction_svc.dto.TransactionDto;
+import com.coffeandit.transactionsvc.domain.TransactionBusiness;
+import com.coffeandit.transactionsvc.dto.SituacaoEnum;
+import com.coffeandit.transactionsvc.dto.TransactionDto;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.extern.slf4j.Slf4j;
@@ -10,7 +10,6 @@ import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDate;
-import java.time.LocalDateTime;
 import java.util.Objects;
 
 @Service

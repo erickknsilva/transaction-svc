@@ -1,4 +1,4 @@
-package com.coffeandit.transaction_svc.dto;
+package com.coffeandit.transactionsvc.dto;
 
 import jakarta.validation.constraints.NotNull;
 import lombok.AllArgsConstructor;

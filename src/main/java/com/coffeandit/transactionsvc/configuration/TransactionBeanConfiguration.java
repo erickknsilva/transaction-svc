@@ -1,8 +1,8 @@
-package com.coffeandit.transaction_svc.configuration;
+package com.coffeandit.transactionsvc.configuration;
 
 
-import com.coffeandit.transaction_svc.validation.EmptyTransactionValidationBean;
-import com.coffeandit.transaction_svc.validation.TransactionValidation;
+import com.coffeandit.transactionsvc.validation.EmptyTransactionValidationBean;
+import com.coffeandit.transactionsvc.validation.TransactionValidation;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnJava;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.boot.system.JavaVersion;

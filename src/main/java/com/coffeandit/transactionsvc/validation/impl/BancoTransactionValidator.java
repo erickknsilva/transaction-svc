@@ -1,11 +1,8 @@
-package com.coffeandit.transaction_svc.validation.impl;
+package com.coffeandit.transactionsvc.validation.impl;
 
-import com.coffeandit.transaction_svc.dto.RequestTransactionDto;
-import com.coffeandit.transaction_svc.exception.DomainBussinessException;
-import com.coffeandit.transaction_svc.validation.TransactionValidation;
-import com.coffeandit.transaction_svc.validation.TransactionValidator;
-import lombok.AllArgsConstructor;
-import lombok.NoArgsConstructor;
+import com.coffeandit.transactionsvc.dto.RequestTransactionDto;
+import com.coffeandit.transactionsvc.exception.DomainBussinessException;
+import com.coffeandit.transactionsvc.validation.TransactionValidator;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.stereotype.Component;
 

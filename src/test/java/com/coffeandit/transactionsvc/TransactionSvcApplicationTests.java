@@ -1,4 +1,4 @@
-package com.coffeandit.transaction_svc;
+package com.coffeandit.transactionsvc;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

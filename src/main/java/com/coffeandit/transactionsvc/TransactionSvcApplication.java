@@ -1,8 +1,7 @@
-package com.coffeandit.transaction_svc;
+package com.coffeandit.transactionsvc;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.data.mongodb.repository.config.EnableMongoRepositories;
 
 @SpringBootApplication
 public class TransactionSvcApplication {

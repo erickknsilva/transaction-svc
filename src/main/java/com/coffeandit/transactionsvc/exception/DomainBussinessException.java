@@ -1,4 +1,4 @@
-package com.coffeandit.transaction_svc.exception;
+package com.coffeandit.transactionsvc.exception;
 
 public class DomainBussinessException extends RuntimeException {
 
