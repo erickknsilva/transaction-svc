@@ -1,4 +1,4 @@
-package com.coffeandit.transaction_svc.dto;
+package com.coffeandit.transactionsvc.dto;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonIgnore;
@@ -8,14 +8,11 @@ import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
-import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.Id;
 import org.springframework.format.annotation.DateTimeFormat;
 
 import java.math.BigDecimal;
-import java.time.Instant;
 import java.time.LocalDate;
-import java.time.LocalDateTime;
 import java.util.UUID;
 
 @Getter
@@ -41,10 +38,6 @@ public class TransactionDto {
     private BeneficiatioDto beneficiario;
 
     @NotNull(message = "Informar o tipo da transação")
-
-    @CreatedDate
-    private Instant createdDate;
-
     private TipoTransacao tipoTransacao;
 
     private SituacaoEnum situacao;

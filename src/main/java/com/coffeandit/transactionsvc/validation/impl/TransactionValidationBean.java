@@ -1,10 +1,10 @@
-package com.coffeandit.transaction_svc.validation.impl;
+package com.coffeandit.transactionsvc.validation.impl;
 
 
-import com.coffeandit.transaction_svc.dto.RequestTransactionDto;
-import com.coffeandit.transaction_svc.exception.DomainBussinessException;
-import com.coffeandit.transaction_svc.validation.TransactionValidation;
-import com.coffeandit.transaction_svc.validation.TransactionValidator;
+import com.coffeandit.transactionsvc.dto.RequestTransactionDto;
+import com.coffeandit.transactionsvc.exception.DomainBussinessException;
+import com.coffeandit.transactionsvc.validation.TransactionValidation;
+import com.coffeandit.transactionsvc.validation.TransactionValidator;
 import jakarta.annotation.PostConstruct;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnBean;

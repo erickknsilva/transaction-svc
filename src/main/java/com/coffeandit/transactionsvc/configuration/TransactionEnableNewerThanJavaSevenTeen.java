@@ -1,4 +1,4 @@
-package com.coffeandit.transaction_svc.configuration;
+package com.coffeandit.transactionsvc.configuration;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.system.JavaVersion;

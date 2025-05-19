@@ -1,7 +1,7 @@
-package com.coffeandit.transaction_svc.validation;
+package com.coffeandit.transactionsvc.validation;
 
-import com.coffeandit.transaction_svc.dto.RequestTransactionDto;
-import com.coffeandit.transaction_svc.exception.DomainBussinessException;
+import com.coffeandit.transactionsvc.dto.RequestTransactionDto;
+import com.coffeandit.transactionsvc.exception.DomainBussinessException;
 
 public class EmptyTransactionValidationBean implements TransactionValidation {
 
