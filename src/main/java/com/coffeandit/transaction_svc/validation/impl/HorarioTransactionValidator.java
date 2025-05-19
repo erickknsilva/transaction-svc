@@ -19,7 +19,7 @@ public class HorarioTransactionValidator implements TransactionValidator {
 
     @Override
     public void validate(RequestTransactionDto requestTransactionDto) throws DomainBussinessException {
-        if (LocalDateTime.now().getHour() > HOUR_END || requestTransactionDto.getData().getHour() > HOUR_END) {
+        if (LocalDateTime.now().getHour() > HOUR_END) {
             throw new DomainBussinessException("Não é possivel fazer transação após as 18.");
         }
     }
